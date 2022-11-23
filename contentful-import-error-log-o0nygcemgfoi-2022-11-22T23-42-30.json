@@ -1,0 +1,108 @@
+[
+  {
+    "ts": "2022-11-22T23:42:37.541Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "p39nycxzit31"
+            }
+          },
+          "id": "homepageBanner",
+          "type": "ContentType",
+          "createdAt": "2022-02-25T04:10:52.154Z",
+          "updatedAt": "2022-02-25T04:10:52.570Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 1,
+          "publishedAt": "2022-02-25T04:10:52.570Z",
+          "firstPublishedAt": "2022-02-25T04:10:52.570Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          },
+          "publishedCounter": 1,
+          "version": 2,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4SDtqAl8Y6iEC5454bbsbU"
+            }
+          }
+        },
+        "displayField": "heading",
+        "name": "Homepage Banner",
+        "description": "",
+        "fields": [
+          {
+            "id": "heading",
+            "name": "Heading",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "text",
+            "name": "Text",
+            "type": "Symbol",
+            "localized": false,
+            "required": false,
+            "validations": [
+            ],
+            "disabled": false,
+            "omitted": false
+          }
+        ]
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "Previously published fields are invalid",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/o0nygcemgfoi/environments/master/content_types/homepageBanner",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.9; feature library-import; sdk contentful-management.js/10.21.2; platform node.js/v18.9.0; os macOS/v18.9.0;",
+            "CF-Sequence": "354857f7-cbaa-4fa9-a060-3a370c6cc24f",
+            "Authorization": "Bearer ...NHYjA",
+            "user-agent": "node.js/v18.9.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 2,
+            "Content-Length": 343
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"heading\",\"name\":\"Homepage Banner\",\"description\":\"\",\"fields\":[{\"id\":\"heading\",\"name\":\"Heading\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false},{\"id\":\"text\",\"name\":\"Text\",\"type\":\"Symbol\",\"localized\":false,\"required\":false,\"validations\":[],\"disabled\":false,\"omitted\":false}]}"
+        },
+        "requestId": "5b009c85-981e-4e91-9e83-a69fb0a8307e"
+      }
+    }
+  }
+]
